@@ -39,7 +39,7 @@ use App\Http\Controllers\InsuranceController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/* ss */
 Route::get('/', function () {
     $homeTop = DB::table('index_home_pages')
     ->join('about_us_pages', 'index_home_pages.statusHomIndex', '=', 'about_us_pages.statusAboutUs')
